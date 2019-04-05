@@ -97,3 +97,11 @@ function isIsogram(str){
 function isIsogram(str){
   return new Set(str.toUpperCase()).size == str.length;
 }
+
+//Поставить пробелы перед каждой заглавной буквой в строке
+
+function solution(string) {
+  return string.replace(/([A-Z])/g, ' $1');;    
+}
+
+
