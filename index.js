@@ -121,4 +121,10 @@ function countSmileys(arr) {
   return arr.filter(x => /^[:;][-~]?[)D]$/.test(x)).length;
 }
 
+//Сложить два числа, сумму перевести в двоичную и строку
+
+function addBinary(a,b){
+  return (a+b).toString(2)
+}
+
 
